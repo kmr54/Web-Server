@@ -72,7 +72,7 @@ function calWeekdayRow(){
       rowHTML += "<th class='calendar_weekdays'>" + dayName[i] + "</th>";
    }
 
-   //rowHTML += "</tr";
+   rowHTML += "</tr>";
    return rowHTML;
 }
 
